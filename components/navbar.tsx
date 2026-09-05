@@ -4,7 +4,7 @@ function Navbar() {
       <ul className="flex gap-4 items-center text-sm">
         <li className="pr-4">
           <a href="/">
-            <img src="/camwall.svg" />
+            <img src="/CamWall.svg" />
           </a>
         </li>
         {/* <li>
