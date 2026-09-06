@@ -10,9 +10,26 @@ function Sponsors() {
       </div>
       <p className="mt-12 max-w-136 text-center italic">
         Want to sponsor CamWall? Feel free to{" "}
-        <span className="font-bold">donate</span>, use{" "}
-        <span className="font-bold">GitHub Sponsors</span>, or reach out
-        directly to <span className="font-bold">yassinehaimouch@proton.me</span>
+        <a
+          href="https://github.com/sponsors/letyassine/"
+          className="font-bold hover:underline"
+        >
+          donate
+        </a>
+        , use{" "}
+        <a
+          href="https://github.com/sponsors/letyassine/"
+          className="font-bold hover:underline"
+        >
+          GitHub Sponsors
+        </a>
+        , or reach out directly to{" "}
+        <a
+          href="mail:yassinehaimouch@proton.me"
+          className="font-bold hover:underline"
+        >
+          yassinehaimouch@proton.me
+        </a>
       </p>
     </div>
   );
