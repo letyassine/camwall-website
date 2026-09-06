@@ -25,7 +25,7 @@ function Sponsors() {
         </a>
         , or reach out directly to{" "}
         <a
-          href="mail:yassinehaimouch@proton.me"
+          href="mailto:yassinehaimouch@proton.me"
           className="font-bold hover:underline"
         >
           yassinehaimouch@proton.me
