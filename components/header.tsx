@@ -2,12 +2,12 @@ function Header() {
   return (
     <>
       <div>
-        <div className="mt-32">
-          <h1 className="text-6xl max-w-2xl font-semibold">
+        <div className="mt-16 md:mt-32">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl max-w-2xl font-semibold">
             <span className="font-libre-baskerville italic">Change</span> your
             WallPaper to Camera
           </h1>
-          <p className="mt-2 font-normal text-xl">
+          <p className="mt-2 font-normal text-base sm:text-xl">
             the free and open source app for changing your desktop wallpaper to
             camera.
           </p>
@@ -33,11 +33,15 @@ function Header() {
         </a>
       </div>
       <div className="mt-12">
-        <iframe
-          height="500"
-          width="100%"
-          src="https://www.youtube.com/embed/XYEEqfBfxEc"
-        ></iframe>
+        <div className="relative w-full aspect-video overflow-hidden rounded-lg">
+          <iframe
+            className="absolute inset-0 w-full h-full"
+            src="https://www.youtube.com/embed/XYEEqfBfxEc"
+            title="CamWall demo"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        </div>
       </div>
     </>
   );

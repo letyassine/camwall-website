@@ -1,3 +1,5 @@
+import Link from "next/link";
+import Image from "next/image";
 import { FaGithub } from "react-icons/fa";
 
 function Navbar() {
@@ -5,9 +7,9 @@ function Navbar() {
     <nav className="flex items-center justify-between py-4">
       <ul className="flex gap-4 items-center text-sm">
         <li className="pr-4">
-          <a href="/">
-            <img src="/CamWall.svg" />
-          </a>
+          <Link href="/">
+            <Image src="/CamWall.svg" className="h-8 w-auto" alt="CamWall" width={96} height={32} />
+          </Link>
         </li>
         {/* <li>
           <a href="/">About</a>

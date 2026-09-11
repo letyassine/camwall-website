@@ -8,7 +8,7 @@ function Sponsors() {
         <div className="size-18 rounded-full bg-black" />
         <div className="size-18 rounded-full bg-black" />
       </div>
-      <p className="mt-12 max-w-136 text-center italic">
+      <p className="mt-12 max-w-md sm:max-w-136 text-center italic">
         Want to sponsor CamWall? Feel free to{" "}
         <a
           href="https://github.com/sponsors/letyassine/"

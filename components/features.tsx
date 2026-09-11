@@ -19,7 +19,7 @@ const FEATURES = [
 
 function Features() {
   return (
-    <div className="mt-12 grid grid-cols-2 gap-x-3 gap-y-5">
+    <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 gap-x-3 gap-y-8 sm:gap-y-5">
       {FEATURES.map((el, index) => (
         <div key={`${el.title + index}`}>
           <h2 className="text-2xl font-bold">{el.title}</h2>

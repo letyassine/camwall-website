@@ -6,7 +6,7 @@ import Footer from "@/components/footer";
 
 export default function Home() {
   return (
-    <main className="max-w-4xl mx-auto w-full">
+    <main className="max-w-4xl mx-auto w-full px-4 sm:px-6 lg:px-8">
       <Navbar />
       <Header />
       <Features />
