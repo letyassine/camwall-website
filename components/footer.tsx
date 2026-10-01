@@ -4,7 +4,7 @@ function Footer() {
       Curated by{" "}
       <a
         href="https://x.com/thegitcoder"
-        className="font-libre-baskerville italic hover:underline"
+        className="font-serif italic hover:underline"
       >
         Gitcoder
       </a>

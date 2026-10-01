@@ -1,18 +1,6 @@
 import type { Metadata } from "next";
-import { Inter, Libre_Baskerville } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
-
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
-
-const libreBaskerville = Libre_Baskerville({
-  subsets: ["latin"],
-  variable: "--font-libre",
-});
 
 export const metadata: Metadata = {
   title: "CamWall — Live Wallpaper From Your Camera",
@@ -25,10 +13,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
-    <html
-      lang="en"
-      className={`${inter.variable} ${libreBaskerville.variable} h-full antialiased`}
-    >
+    <html lang="en" className="h-full antialiased">
       <Head>
         <link rel="icon" href="/favicon.svg" sizes="32" />
       </Head>
